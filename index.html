@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"
+      id="header">
+        <div class="header-left">
+          <img src="img/logo.svg" alt="logo icon" class="logo" />
+          <details class="menu-details">
+            <summary>Category</summary>
+
+            <a href="men.html" class="menu-link">Men</a>
+            <a href="women.html" class="menu-link">Women</a>
+            <a href="kids.html" class="menu-link">Kids</a>
+            <a href="#" class="menu-link">Customise</a>
+          </details>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="men.html" class="menu-link"> Men </a>
+              </li>
+              <li class="menu-item">
+                <a href="women.html" class="menu-link"> Women </a>
+              </li>
+              <li class="menu-item">
+                <a href="kids.html" class="menu-link"> Kids </a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link"> Customise </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <details class="action-details">
+            <summary>Action</summary>
+            <a href="#" class="search action-link"
+              ><img src="img/action_1.svg" alt=""
+            /></a>
+            <a href="#" class="wish-list action-link"
+              ><img src="img/action_2.svg" alt=""
+            /></a>
+            <a href="#" class="cart action-link"
+              ><img src="img/action_3.svg" alt=""
+            /></a>
+          </details>
+          <div class="action">
+            <a href="#" class="search action-link"
+              ><img src="img/action_1.svg" alt=""
+            /></a>
+            <a href="#" class="wish-list action-link"
+              ><img src="img/action_2.svg" alt=""
+            /></a>
+            <a href="#" class="cart action-link"
+              ><img src="img/action_3.svg" alt=""
+            /></a>
+          </div>
+          <div class="second-menu">
+            <span></span>
+          </div>
+          <input type="checkbox" name="" id="" class="second-menu-openbtn" />
+          <nav class="second-navigation">
+            <ul class="second-nav">
+              <li class="second-nav-items">
+                <a href="#header">Home</a>
+              </li>
+              <li class="second-nav-items">
+                <a href="#features">Features</a>
+              </li>
+              <li class="second-nav-items">
+                <a href="#categories">Categories</a>
+              </li>
+              <li class="second-nav-items">
+                <a href="#footer">Footer</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero" id="hero">
+          <div class="hero-text">
+            <a href="men.html" class="category">Men's Shoes</a>
+            <h1>Nike SB Nyjah Free 2</h1>
+            <p class="price">&#36;259.00</p>
+            <button class="buy-now">
+              Buy now <img src="img/arrow.svg" alt="right arrow" />
+            </button>
+            <input class="buy-now-checkbox" type="checkbox" name="" id="">
+            <div class="pop-up">
+              <form class="pop-up-form" action="#" method="post">
+                  <div class="personal-info">
+                      <h3>Personal info</h3>
+                      <div class="bio">
+                          <div>
+                              <label for="first_name">First Name</label>
+                              <input type="text" name="first_name">
+                          </div>
+                          <div>
+                              <label for="last_name">Last Name</label>
+                              <input type="text" name="last_name">
+                          </div>
+                      </div>
+                      <label for="email">Email Addres:</label>
+                      <input type="email" name="email" id="">
+                      <label for="street">Street</label>
+                      <input type="text" name="street">
+                      <div class="location">
+                          <div>
+                              <label for="city">City</label>
+                              <input type="text" name="city" id="">
+                          </div>
+                          <div>
+                              <label for="country">Country</label>
+                              <select name="country" id="">
+                                  <option value="">Your country</option>
+                                  <option value="1">Ukraine</option>
+                                  <option value="2">Usa</option>
+                                  <option value="3">China</option>
+                                  <option value="4">Poland</option>
+                                  <option value="5">England</option>
+                                  <option value="6">France</option>
+                                  <option value="7">Brazil</option>
+                                  <option value="8">Canada</option>
+                                  <option value="9">Egypt</option>
+                                  <option value="10">Turkey</option>
+                              </select>
+                          </div>
+                      </div>
+                      <label for="phone">Phone number</label>
+                      <input type="tel" name="phone" id="" placeholder="+380">
+                  </div>
+                  <div class="delivery">
+                     <div class="delivery-main">
+                          <h3>Delivery</h3>
+                          <p class="delivery-subtitle">Delivery free</p>
+                          <div class="price-wrap">
+                              <div class="delivery-price price-white">
+                                  <span>0<sup>&#36;</sup></span>
+                                  <p>3-4 weeks</p>
+                              </div>
+                              <div class="delivery-price price-purple">
+                                  <span>5<sup>&#36;</sup></span>
+                                  <p>2-5 days</p>
+                              </div>
+                          </div>
+                     </div>
+                         <div class="checkbox-wrap">
+                             <input type="checkbox" name="newsletter" id="">
+                             <label for="newsletter">Subscribe tou our newsletter</label>
+                         </div>
+                        <div class="checkbox-wrap">
+                             <input type="checkbox" name="account" id="">
+                             <label for="account">Create an account</label>
+                        </div>
+                         <a href="order.html" class="submit-btn">Confirm the order</a>
+                     </div>
+                    </form>
+                  </div>
+              
+         </div>
+          <div class="hero-img">
+            <img src="img/sneker1.png" alt="sneakers prewiev"/>
+            <span>Sb Nyjah</span>
+          </div>
+          <label class="scroll-label" for="scroll-down">&larr;</label>
+          <input
+            type="checkbox"
+            name="scroll-down"
+            class="scroll-down-btn"
+            id=""
+          />
+          <div class="scroll-down">
+            <a href="#footer">scroll down</a>
+            <img src="img/scroll-down.svg" alt="mouse img"/>
+          </div>
+
+          <ul class="socials-list">
+            <li class="social-items">
+              <a href="#" class="social-link"
+                ><img src="img/facebook.svg" alt="facebook" class="social-img"
+              /></a>
+            </li>
+            <li class="social-items">
+              <a href="#" class="social-link"
+                ><img src="img/twitter.svg" alt="twitter" class="social-img"
+              /></a>
+            </li>
+            <li class="social-items">
+              <a href="#" class="social-link"
+                ><img
+                  src="img/instagram.svg"
+                  alt="instagram"
+                  class="social-img"
+              /></a>
+            </li>
+            <li class="social-items">
+              <a href="#" class="social-link"
+                ><img src="img/youtube.svg" alt="youtube" class="social-img"
+              /></a>
+            </li>
+          </ul>
+        </section>
+        <section class="features" id="features">
+          <div class="features-img">
+            <img src="img/features.png" alt="sneaker image" />
+          </div>
+          <div class="features-text">
+            <p class="section-uptitle">Features</p>
+            <h2 class="section-title">Bring The Future to Light</h2>
+            <p class="features-paragraf">
+              The Nike SB Nyjah Free 2 is a sequel worthy of its predecessor.
+              Inspired by the iconic Nike Air Zoom Spiridon, the original rubber
+              design has been updated with mesh panels to help your feet stay
+              cool through your hottest skate sessions.
+            </p>
+            <div class="colors">
+              <p>Colours:</p>
+              <ul class="colors-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="sizes">
+              <p>Size:</p>
+              <ul class="sizes-list">
+                <li class="sizes-item">Uk 5.5</li>
+                <li class="sizes-item">Eu 39</li>
+                <li class="sizes-item">Uk 6.5</li>
+                <li class="sizes-item">Uk 7.5</li>
+              </ul>
+            </div>
+            <div class="features-buttons">
+              <button class="bag-btn features-btn">
+                Add to bag <img src="img/cart_white.svg" alt="" />
+              </button>
+              <button class="wishes-btn features-btn">
+                Wishlist <img src="img/heart_white.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="categories" id="categories">
+          <p class="section-uptitle">Categories</p>
+          <h2 class="section-title">Similler product</h2>
+          <ul class="categories-list">
+            <li class="categories-item">
+             <a href="product.html">
+                <div class="img-wrap"><img src="img/categories.png" alt=""></div>
+                  <div class="colors">
+                <ul class="colors-list">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+                <h3>Nike Leron X1</h3>
+                <p>&#36;75.00</p>
+                <button>Add To Cart <img src="img/cart_gradient.svg" alt="cart image"></button>
+             </a>
+            </li>
+            <li class="categories-item">
+              <a href="product.html">
+                 <div class="img-wrap"><img src="img/categories.png" alt=""></div>
+                   <div class="colors">
+                 <ul class="colors-list">
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                 </ul>
+               </div>
+                 <h3>Nike Leron X1</h3>
+                 <p>&#36;75.00</p>
+                 <button>Add To Cart <img src="img/cart_gradient.svg" alt="cart image"></button>
+              </a>
+             </li>
+             <li class="categories-item">
+              <a href="product.html">
+                 <div class="img-wrap"><img src="img/categories.png" alt=""></div>
+                   <div class="colors">
+                 <ul class="colors-list">
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                 </ul>
+               </div>
+                 <h3>Nike Leron X1</h3>
+                 <p>&#36;75.00</p>
+                 <button>Add To Cart <img src="img/cart_gradient.svg" alt="cart image"></button>
+              </a>
+             </li>
+             <li class="categories-item">
+              <a href="product.html">
+                 <div class="img-wrap"><img src="img/categories.png" alt=""></div>
+                   <div class="colors">
+                 <ul class="colors-list">
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                 </ul>
+               </div>
+                 <h3>Nike Leron X1</h3>
+                 <p>&#36;75.00</p>
+                 <button>Add To Cart <img src="img/cart_gradient.svg" alt="cart image"></button>
+              </a>
+             </li>
+          </ul>
+        </section>
+        <section class="crater">
+          <div class="card">
+            <h2 class="section-title">Waffle One Crater</h2>
+            <button class="buy-now">
+              Buy now</button>
+          </div>
+        </section>
+        
+      </main>
+      <footer class="footer" id="footer"></footer>
+      
+    </div>
+  </body>
+</html>
